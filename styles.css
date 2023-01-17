@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 .cover {
-  background-image: url("1.jpg");
+  background-image: url("media/1.jpg");
   width: 100vw;
   height: 100vh;
   background-size: 100% 100%;
@@ -347,7 +347,7 @@ b {
 
 @media screen and (min-width: 300px) and (max-width: 399px){
 .cover {
-  background-image: url("2.png") !important;
+  background-image: url("media/2.png") !important;
 }
 .conteo {
   top: 48%;
@@ -461,7 +461,7 @@ h1 {
 
 @media screen and (min-width: 401px) and (max-width: 480px){
 .cover {
-  background-image: url("2.png");
+  background-image: url("media/2.png");
 }
 .conteo {
   top: 50%;
