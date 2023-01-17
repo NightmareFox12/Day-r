@@ -144,7 +144,7 @@ h1 {
 .msj {
   width: 150px;
   height: 50px;
-  background-image: url("menu_over.png");
+  background-image: url("media/menu_over.png");
   background-size: 100% 100%;
   position: fixed;
   top: 90%;
@@ -345,9 +345,100 @@ b {
       }
 }
 
+@media screen and (min-width: 490px) and (max-width: 600px){
+.conteo {
+  top: 62%;
+  font-size: 1.4rem;
+}
+.loading {
+  width: 450px;
+  margin: 63vh auto;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  margin: 10px auto;
+  line-height: 40px;
+  font-size: 1.2rem;
+}
+.introduction {
+  padding: 0 10px;
+}
+h1 {
+  font-size: 2rem
+}
+.contenido {
+  line-height: 25px;
+  font-size: 1.3rem;
+}
+.text {
+  line-height: 28px;
+  font-size: 1.3rem;
+  margin: 5px;
+}
+.door {
+  width: 95%;
+}
+.galery-1 {
+  margin: 40px 0;
+}
+.npc {
+  height: 25%;
+  width: 25%;
+  margin: 0 4px;
+}
+.npc:hover {
+  width: 26%;
+}
+.msj {
+  width: 130px;
+  left: 78%;
+  font-size: 1.2rem;
+}
+.espera {
+  padding: 0 20px;
+}
+.title-2 {
+  font-size: 2.1rem;
+}
+.item-lista {
+  line-height: 25px;
+  font-size: 1.3rem;
+}
+.urss {
+  width: 450px;
+  height: 350px;
+  top: 28%;
+  left: 10%;
+}
+.urss_msj {
+  padding: 15px;
+  line-height: 25px;
+  font-size: 1.3rem
+}
+.info {
+  font-size: 1.1rem;
+  padding: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.title-3 {
+  padding: 20px;
+  font-size: 2.4rem;
+}
+.again {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 1.2rem;
+}
+.galery-2 {
+  width: 100%;
+}
+}
+
 @media screen and (min-width: 300px) and (max-width: 399px){
 .cover {
-  background-image: url("media/2.png") !important;
+  background-image: url("media/2.png");
 }
 .conteo {
   top: 48%;
@@ -566,31 +657,3 @@ h1 {
 .galery-2 div {
   outline: 1px dashed #af7ac5;
 }
-
-/* FALTA ARREGLAR ESTO CARA E LOCO
-@media screen and (min-width: 500px) and (max-width: 700px){
-.loading {
-  width: 400px;
-}
-.msj {
-  width: 130px;
-  height: 50px;
-  left: 80%;
-  font-size: .8rem;
-}
-.urss {
-  width: 450px;
-  height: 220px;
-  background-color: rgb(255,255,255,.9);
-  top: 30%;
-  left: 5%;
-}
-.galery-2 {
-  width: 500px;
-  height: 200px;
-  grid-template-columns: repeat(4,1fr);
-  margin: 2px auto; 
-}
-
-}
-*/

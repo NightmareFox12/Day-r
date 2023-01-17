@@ -16,7 +16,7 @@ const npc = document.querySelector(".npc-1");
 const npc2 = document.querySelector(".npc-2");
 const npc3 = document.querySelector(".npc-3");
 const npc4 = document.querySelector(".npc-4");
-
+  
 let suma = 0;
 
 const carga = setInterval(function contar(){
@@ -160,13 +160,7 @@ const observadol = new IntersectionObserver(ojo);
 
 observadol.observe(info)
 
-
-/*
-Terminar de configurarlo en el local host
 const cache = caches;
 cache.open("seguridad").then(cache=>{
-	cache.add("code.js");
-    console.log(cache)
+  cache.addAll(["index.html","styles.css","code.js","1.jpg","abg.ttf","desolate_1.mp3","freemono.ttf","2.png"]);
 });
-*/
-
